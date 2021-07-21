@@ -2,10 +2,11 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E
 }
 
 h1 {
-  margin: 50px auto 0px auto;
+  margin: 50px auto 0 auto;
   /*margin: 0 auto;*/
   font-size:  5.625rem; /*100% = 16px, 90px = 562.5% 1em = 16px rem to avoid stack up of nested percentages*/
   font-family: 'Sacramento', cursive;
@@ -63,8 +64,17 @@ hr {
 
 .footer-link {
   font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
   text-decoration: none;
   margin: 20px;
+}
+
+
+.footer-copyright{
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  margin-top: 20px;
 }
 
 .bottom-cloud {
@@ -80,7 +90,7 @@ hr {
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
+  margin: 100px auto 50px auto;
   width: 50%;
   text-align: left;
   line-height: 2;
@@ -96,12 +106,14 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 50%;
 }
 
 .chilli-img {
   width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 50%;
 }
 
 .btn {
@@ -115,7 +127,7 @@ hr {
    -moz-border-radius: 20px;
    border-radius: 10px;
    color: #FFFFFF;
-   font-family: Verdana;
+   font-family: 'Montserrat', sans-serif;
    font-size: 1rem;
    font-weight: 100;
    padding: 10px;
